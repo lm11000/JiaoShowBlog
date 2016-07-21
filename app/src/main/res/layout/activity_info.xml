@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/name"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        />
+    <View
+        android:background="?colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:background="@android:color/transparent"
+        android:padding="5dp"/>
+    <View
+        android:background="?colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/phone"
+        android:background="@android:color/transparent"
+        android:padding="5dp"/>
+    <View
+        android:background="?colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="8"
+        android:hint="@string/content"
+        android:gravity="start"
+        android:background="@android:color/transparent"
+        android:padding="5dp"/>
+    <View
+        android:background="?colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <Button
+        android:id="@+id/submit"
+        android:text="@string/commit"
+        android:textSize="20sp"
+        android:textColor="?colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

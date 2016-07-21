@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JiaoShouBlog_bate1.0</string>
+    <string name="info">联系我</string>
+    <string name="content">正文</string>
+    <string name="commit">提交</string>
+    <string name="phone">电话(非必填)</string>
+    <string name="email">Email</string>
+    <string name="name">姓名</string>
+    <string name="guestBook">留言</string>
+    <string name="more">更多</string>
+    <string name="write">撰写留言</string>
+</resources>
